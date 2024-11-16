@@ -12,10 +12,10 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors.exceptions.bad_request_400 import UserAlreadyParticipant
 from pyrogram.types import ChatJoinRequest
-from YukkiMusic import app
-from YukkiMusic.core.mongo import mongodb
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.utils.keyboard import ikb
+from AlexaMusic import app
+from AlexaMusic.core.mongo import mongodb
+from AlexaMusic.misc import SUDOERS
+from AlexaMusic.utils.keyboard import ikb
 
 from utils.permissions import adminsOnly, member_permissions
 
