@@ -14,16 +14,16 @@ from pyrogram.types import (
     InlineKeyboardMarkup,
     Message,
 )
-from YukkiMusic import app
-from YukkiMusic.core.mongo import mongodb
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.utils.database import save_filter
-from YukkiMusic.utils.functions import (
+from AlexaMusic import app
+from AlexaMusic.core.mongo import mongodb
+from AlexaMusic.misc import SUDOERS
+from AlexaMusic.utils.database import save_filter
+from AlexaMusic.utils.functions import (
     extract_user,
     extract_user_and_reason,
     time_converter,
 )
-from YukkiMusic.utils.keyboard import ikb
+from AlexaMusic.utils.keyboard import ikb
 
 from utils.error import capture_err
 from utils.permissions import adminsOnly, member_permissions
